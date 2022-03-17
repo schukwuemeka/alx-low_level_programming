@@ -1,14 +1,15 @@
-#include "main.h"
-int main (void)
+#include (main.h)
+int main(void)
 {
-char *sh = "Alx";
+char *sh = "main";
 
 while (*sh)
 {
- _putchar(*sh);
+_putchar(*sh);
 sh++;
 }
- _putchar('\n');
+_putchar('\n');
 
 return (0);
+
 }
